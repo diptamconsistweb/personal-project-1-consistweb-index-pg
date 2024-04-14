@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50% , rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position:center ;
+    background-size: contain;
+    height: 100vh;
+}
+.navbar{ 
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 75px;
+    float:left;
+    
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: arial; 
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: left ;
+    height: 70px;
+
+}
+ul {
+    float:left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+li {
+    list-style-type: none;
+    margin-left :60px;
+    margin-top: 20px;
+    font-size: 15px; 
+}
+
+li:hover {
+    transform: scale(1.5);
+    transition: all 0.25s ease-out;
+}    
+   
+a{ 
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a:hover{
+    color: orange;
+}
+
+.search{
+    width: 200px;
+    height: 25px;
+    margin-right:70px;
+    margin-top: 7px;
+    color:white;
+   
+    background-color: rgb(215, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    float:inline-end;
+
+}
+.btn{
+    width: 50px;
+    height:25px;
+    position: absolute;
+    right: 40px;
+    background: orange;
+    color:black;
+    float: inline-end;
+    margin-top: 7px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.content{
+    font-family:'Times New Roman'
+    font size: 50px;
+    color: white;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+p{
+    font-style: italic;
+    font-weight:lighter;
+    margin-top:1.5%;
+    
+}
+.btn2{
+    color:black;
+    background-color:orange;
+    width: 60px;
+    height:25px;
+    margin: 10px;
+    cursor:pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+.btn2:hover {
+    background-color: white;
+    color: rgb(171, 0, 0);
+    transition:.25s ease-in;
+}
+span{
+    color:orange
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top,rgba (0,0,0,0.8)50%,rgba (0,0,0,0.8)50%);
+    background-color: rgb(215, 209, 209);
+    opacity:  0.7;
+    position: absolute;
+    top: 100px;
+    left: 870px;
+    
+    border-radius:10px;
+    padding: 25px;
+
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size
+
+
+}
+
+#email{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    
+    
+}
+.btn3{
+    width: 60px;
+    height:20px;
+    margin-right:150px;
+    background: orange;
+    color:black;
+    float: inline-start;
+    margin-top: 4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}    
+#formitem{
+    display: flex;
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left:10%;
+    margin-top: 2px;
+    background-color:orange;
+    color:black
+}
+#notac1{
+    position: absolute;
+    left: 915px;
+    top: 270px;
+    background-color: transparent;
+    color: blue;
+}
+#notac2{
+    position: absolute;
+    left: 915px;
+    top: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: black ;
+}
+#notac3{
+    position: absolute;
+    left: 915px;
+    top: 325px;
+    background-color: transparent;
+    color: blue;
+    }
+#notac4{
+    position: absolute;
+    left: 915px;
+    top: 335px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.icn{
+    display: flex;
+    position: absolute;
+    right: 150px;
+    border: 2px solid orange;
+    
+    
+}
+.icn ion-icon{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+
+
+}
+.icn ion-icon:hover{
+    color: orange;
+}
+
+
+
+
+    
+    
+    
+    
+
+
+    
+
+   
+    
